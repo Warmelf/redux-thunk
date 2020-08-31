@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.app {
+    margin: 40px auto;
+    width: 80%;
+
+    font-family: 'Lato', 'Helvetica', sans-serif;
+}
+
+.app__title {
+    margin: 0 0 30px;
+}
+
+.post-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.post-list__item {
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.post-item {
+    border: 1px solid #ababab;
+    border-radius: 3px;
+    margin: 0;
+    padding: 20px;
+}
+
+.post-item__title {
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.post-item__body {
+    margin: 0;
+    font-size: 14px;
+}
